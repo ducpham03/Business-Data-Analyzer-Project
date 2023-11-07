@@ -24,12 +24,12 @@ _______________
 
 **Processing the contents**
 
-Once the content is loaded, the data will be kept in a separate list for each NAICS code. This can be done by using own implementation of ArrayList and LinkedList based on the arguments provided. The NAICS code is provided as a range in the dataset (eg. 4400-4599). In the next section, the user can ask for a particular NAICS code summary and you should be able to determine which range the code falls under. Arrange data structure to answer the questions.
+Once the content is loaded, the data will be kept in a separate list for each NAICS code by using an implementation of ArrayList and LinkedList based on the arguments provided. The NAICS code is provided as a range in the dataset (eg. 4400-4599). Users can ask for a particular NAICS code summary and the program can determine which range the code falls under.
 _______________
 
 **Executing user commands**
 
-After reading the contents and analyzing it, ask the user to enter commands. The sample commands are given below. The program will exit when the user enters the command quit:
+After reading the contents and analyzing it, users can enter commands. The sample commands are given below. The program will exit when the user enters the command "quit":
 
 <br/>
 Command: Zip 94108 Summary
@@ -68,7 +68,7 @@ New Business in last year: 2000
 _______________
 **Remembering user commands**
 
-As the user enters commands, place them in a queue and show them to the user when they want to see them with the command “history”. Use Java collection framework Queue implementation for this purpose.
+When users enter the command “history”, show them the command history by using the Java collection framework Queue implementation.
 
 Example:
 
