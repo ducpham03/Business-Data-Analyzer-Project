@@ -1,4 +1,4 @@
-# Coursework Project: Business Data Analyzer Java Project
+# Java Coursework Project: Business Data Analyzer 
 
 This project aims to demonstrate the understanding of lists in the collection framework in Java by developing a business data analyzer that can analyze data available in an open dataset and answer queries given by the user about the dataset.
 
